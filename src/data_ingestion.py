@@ -60,3 +60,5 @@ columns = {
 df_full_process = data_process(df_fulL,columns)
 # %%
 gbq.to_gbq(df_full_process,'beneficios_inss.concessao_beneficios',project_id='mercantil-case',if_exists='replace')
+#%%
+df_fulL['CID.1'].value_counts()
