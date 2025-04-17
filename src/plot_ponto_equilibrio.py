@@ -1,6 +1,8 @@
 #%%
-import matplotlib.pyplot as plt
+
 import seaborn as sns 
+import matplotlib.pyplot as plt
+import numpy as np
 # %%
 custo_fixo = 15000 
 custo_cliente = 50
@@ -18,23 +20,7 @@ for cliente in num_clientes:
     custos.append(custo)
     receitas.append(receita)
 # %%
-plt.rcParams['font.family'] = 'Lucida Sans'
-plt.rcParams['font.size'] = 12
 
-# Gera o gráfico
-plt.figure(figsize=(10,6))
-plt.plot(num_clientes, custos, label='Custos Totais', color='#BC0E0E')
-plt.plot(num_clientes, receitas, label='Receitas Totais', color='#0F1FBB')
-plt.axvline(ponto_equilibrio_clientes, color='#656565', linestyle='--', label='Ponto de Equilíbrio')
-plt.xlabel('Número de Clientes')
-plt.ylabel('R$')
-plt.title('Ponto de Equilíbrio',fontsize=16)
-plt.legend()
-plt.tight_layout()
-plt.show()
-# %%
-import matplotlib.pyplot as plt
-import numpy as np
 
 # Define o estilo da fonte
 plt.rcParams['font.family'] = 'Lucida Sans'
