@@ -33,7 +33,7 @@ FROM `mercantil-case.beneficios_inss.concessao_beneficios` ben
 INNER JOIN cidades 
   on ben.des_comp_mun_resid = cidades.cidade_residencia
 WHERE date_trunc(dat_inicio_beneficio,month) >= date(2025,01,01) and date_trunc(dat_inicio_beneficio,month) <= date(2025,03,01) 
-and ben.des_Especie not like '%Auxilio%'
+and ben.des_Especie not like '%Auxílio%'
 ),
 
 tb_produto as (
