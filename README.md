@@ -39,8 +39,7 @@ Período analisado: Janeiro a Março de 2025
 
 ## 👤 Sobre o Projeto
 
-Estudo realizado como parte de um case de dados para processo seletivo.  
-Reformulado como projeto de portfólio para demonstrar habilidades em:
+Estudo realizado para praticar ingestão, tratamento e visualização de dados, utilizando:
 
 - Análise de dados públicos
 - Modelagem financeira
