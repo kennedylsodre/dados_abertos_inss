@@ -5,7 +5,7 @@ SELECT
   ,des_municipio_resid municipio_residencia
   ,count(*) quantidade_beneficios_concedidos
 
-FROM `mercantil-case.beneficios_inss.concessao_beneficios`
+FROM `inss-case.beneficios_inss.concessao_beneficios`
 WHERE des_comp_mun_resid <> '00000-Zerada'
 GROUP BY 1,2,3,4
 ORDER BY 5 DESC
