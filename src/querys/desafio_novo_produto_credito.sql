@@ -4,7 +4,7 @@ SELECT
   des_comp_mun_resid cidade_residencia
   ,count(*) quantidade_beneficios_concedidos
 
-FROM `mercantil-case.beneficios_inss.concessao_beneficios`
+FROM `inss-case.beneficios_inss.concessao_beneficios`
 WHERE des_comp_mun_resid <> '00000-Zerada' and
 date_trunc(dat_inicio_beneficio,month) >= date(2025,01,01) and date_trunc(dat_inicio_beneficio,month) <= date(2025,03,01)
 GROUP BY 1
@@ -29,7 +29,7 @@ SELECT
     when des_sexo = 'Feminino' and date_diff(current_Date(),dat_nascimento,year) <= 80 then 'Feminino até 80 anos'
     when des_sexo = 'Feminino' and date_diff(current_Date(),dat_nascimento,year) <= 85 then 'Feminino até 85 anos'
     end tipo_beneficiario
-FROM `mercantil-case.beneficios_inss.concessao_beneficios` ben 
+FROM `inss-case.beneficios_inss.concessao_beneficios` ben 
 INNER JOIN cidades 
   on ben.des_comp_mun_resid = cidades.cidade_residencia
 WHERE date_trunc(dat_inicio_beneficio,month) >= date(2025,01,01) and date_trunc(dat_inicio_beneficio,month) <= date(2025,03,01) 
