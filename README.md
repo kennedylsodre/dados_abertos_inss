@@ -7,8 +7,10 @@ Este projeto explora dados públicos do INSS para identificar cidades estratégi
 
 ## 📁 Entregas
 
-- 🖥️ **Dashboard Interativo**: [Acesse no Power BI](https://seulinkdopowerbi)
-- 📽️ **Apresentação dos Resultados**: [Veja o PPT no Google Drive](https://seulinkdoppt)
+- 🖥️ **Dashboard Interativo**: [Acesse no Power BI](https://teams.microsoft.com/l/message/48:notes/1746549884210?context=%7B%22contextType%22%3A%22chat%22%2C%22oid%22%3A%228%3Aorgid%3A6c98f42f-7b97-458c-a288-1227f61daebb%22%7D)
+- 📽️ **Apresentação dos Resultados**: [Veja o PPT no Google Drive](https://drive.google.com/file/d/1ayv9o3J4zFN6VuLLCeFS77ujYj89RAm-/view?usp=drivesdk)
+Dashboard Beneficios INSS 2.pbix - Google Drive
+ )
 
 ---
 
