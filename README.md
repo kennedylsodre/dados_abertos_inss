@@ -72,7 +72,7 @@ Portanto, o número de clientes necessário para cobrir os custos fixos é:
 ```
 Clientes para breakeven mensal = 15.000 / 100 = 150 clientes
 ```
-
+![Simulação Financeira](src/imagem.jfif)
 ---
 
 ## 👤 Sobre o Projeto
