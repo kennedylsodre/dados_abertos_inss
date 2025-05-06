@@ -88,5 +88,5 @@ Estudo realizado para praticar ingestão, tratamento e visualização de dados, 
 
 ## 📬 Contato
 
-**[Seu Nome]**  
+**[Kennedy Lacerda Sodre]**  
 [LinkedIn](https://www.linkedin.com/in/kennedylacerda/) | [E-mail](mailto:klacerda88@gmail.com)
