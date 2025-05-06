@@ -16,7 +16,6 @@ Este projeto explora dados públicos do INSS para identificar cidades estratégi
 - Identificar as 30 cidades com maior potencial de novos beneficiários do INSS
 - Estimar a viabilidade financeira da abertura de agências
 - Simular tempo de retorno financeiro (breakeven)
-- Analisar impacto da duração dos benefícios (temporário vs. permanente)
 - Propor e testar um produto de crédito com segmentação demográfica
 
 ---
@@ -31,9 +30,10 @@ Período analisado: Janeiro a Março de 2025
 ## 🛠️ Tecnologias
 
 - Python (Pandas, NumPy, Matplotlib)
+- Google Cloud (Bigquery)
 - Power BI
 - Excel
-- Google Slides
+- Power Point
 
 ---
 
@@ -52,4 +52,4 @@ Reformulado como projeto de portfólio para demonstrar habilidades em:
 ## 📬 Contato
 
 **[Seu Nome]**  
-[LinkedIn](https://seulinklinkedin) | [Portfólio](https://seulinkportfolio) | [E-mail](mailto:seuemail@example.com)
+[LinkedIn](https://www.linkedin.com/in/kennedylacerda/) | [E-mail](klacerda88@gmail.com)
