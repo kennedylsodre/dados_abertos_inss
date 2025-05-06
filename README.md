@@ -28,6 +28,13 @@ Período analisado: Janeiro a Março de 2025
 
 ---
 
+## 🔍 Códigos Utilizados
+
+📄 Ingestão dos dados: [src/data_ingestion.py](src/data_ingestion.py) 
+📄 Querys em SQL para a análise e criação do dashboard: [src/querys](src/querys) 
+
+---
+
 ## 🛠️ Tecnologias
 
 - Python (Pandas, NumPy, Matplotlib)
